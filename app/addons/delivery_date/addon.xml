@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>delivery_date</id>
+    <version>1.0</version>
+    <priority>4999</priority>
+    <position>100</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:user_session_products`
+                ADD `delivery_timestamp` INT(11) NOT NULL DEFAULT 0
+        </item>
+
+        <item for="uninstall">
+            ALTER TABLE `?:user_session_products`
+                DROP `delivery_timestamp`
+        </item>
+    </queries>
+</addon>
