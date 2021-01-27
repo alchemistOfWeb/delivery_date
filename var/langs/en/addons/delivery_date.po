@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::delivery_date"
+msgid "delivery_date"
+msgstr "delivery_date"
+
+msgctxt "Addons::description::delivery_date"
+msgid "description (delivery_date)"
+msgstr "Special module that changes the page in admin zone"
+
+msgctxt "Languages::delivery_date.admin_header"
+msgid "delivery_date"
+msgstr "delivery_date"
+
+msgctxt "Languages::delivery_date.choose_desired_date"
+msgid "Enter desired date of delivery"
+msgstr "Enter desired date of delivery"
+
+msgctxt "Languages::delivery_date.desired_date"
+msgid "Desired delivery of date"
+msgstr "Desired delivery of date: "
