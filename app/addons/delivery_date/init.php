@@ -15,5 +15,7 @@
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 fn_register_hooks(
-    // 'pre_get_cart_product_data'
+    'save_cart_content_before_save',
+    'add_product_to_cart_get_price',
+    'post_add_to_cart'
 );
